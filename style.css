@@ -7,7 +7,7 @@ body, html {
 }
 body{
     padding: 10%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(rgba(var(--bg-0), 1), rgba(var(--bg-1), 1));
 }
 table {
@@ -66,6 +66,12 @@ body > h1{
     vertical-align: top;
 }
 
+.date:hover{
+    text-align: top;
+    vertical-align: top;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
 /*****************Themes*****************/
 .Theme-black {
     --main: black;
@@ -103,6 +109,15 @@ body > h1{
     --bg-1: 255,177,123;
 }
 
+.Theme-yellow {
+    --main: rgb(0, 0, 0);
+    --box: rgba(255, 255, 255, 0.486);
+    --text: rgb(0,41,255);
+    --hover: rgba(255, 255, 255, 0.267);
+    --bg-0: 255,255,180;
+    --bg-1: 214,255,142;
+}
+
 .ChooseTheme{
     width: 30px;
     height: 30px;
@@ -115,3 +130,4 @@ body > h1{
 #Theme-red{ background-color:rgba(215, 95, 93, 0.5); }
 #Theme-blue{ background-color: rgba(93, 215, 209, 0.5); }
 #Theme-purple{ background-color: rgba(49,46,140, 0.5); }
+#Theme-yellow{ background-color: rgba(255,255,207, 1); }
